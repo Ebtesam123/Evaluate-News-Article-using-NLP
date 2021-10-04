@@ -1,0 +1,21 @@
+@import "~bootstrap/scss/bootstrap";
+.hidden {
+  display: none;
+}
+.show {
+  font-size: large;
+  display: block;
+}
+body {
+  background-image: url("https://previews.123rf.com/images/kentoh/kentoh1711/kentoh171100202/90414664-repeating-pattern-with-seamless-pixel-art-background-abstract.jpg");
+  font-size: large;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.center {
+  width: "50%";
+  height: "50%";
+  margin-right: auto;
+  margin-left: auto;
+}
