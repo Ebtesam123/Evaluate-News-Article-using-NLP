@@ -1,5 +1,5 @@
-let ValidateURL = require("valid-url");
 const checkValidURL = (url) => {
+  let ValidateURL = require("valid-url");
   return ValidateURL.isUri(url);
 };
 

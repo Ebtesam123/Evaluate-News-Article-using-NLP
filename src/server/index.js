@@ -30,7 +30,7 @@ envVar.config();
 //fetch
 const { default: axios } = require("axios");
 app.get("/", function (req, res) {
-  res.sendFile(path.resolve("src/client/views/index.html"));
+  res.sendFile(path.resolve("dist/index.html"));
 });
 
 app.get("/test", function (req, res) {
