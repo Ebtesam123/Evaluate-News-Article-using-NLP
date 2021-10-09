@@ -1,3 +1,4 @@
+import "babel-polyfill";
 const { SubmitHandler } = require("../js/handleSubmit");
 
 describe("Check Submitting URL to fetch data from the server", () => {

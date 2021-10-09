@@ -1,7 +1,6 @@
-import "../styles/style.scss";
 const { checkValidURL } = require("./checkURL");
 
-export const SubmitHandler = async (e) => {
+const SubmitHandler = async (e) => {
   e.preventDefault();
   try {
     let url = document.getElementById("article-url").value;
@@ -47,3 +46,4 @@ export const SubmitHandler = async (e) => {
     alert("error in handling the submit");
   }
 };
+export { SubmitHandler };
